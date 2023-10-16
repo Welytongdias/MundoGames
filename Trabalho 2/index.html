@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca de Jogos por Categoria</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <div class="rgb-stripe"></div>
+    <div class="container">
+        <h1 style="color: blue;">MuNDo GaMeS</h1>
+    
+        <!-- Pesquisa por nome de jogo -->
+        <div class="search-section">
+            <h2>Pesquisar por Nome de Jogo</h2>
+            <input type="text" id="gameName" placeholder="Digite o nome do jogo" class="search-input">
+            <button id="searchByName" class="search-button">Pesquisar</button>
+    
+            <!-- Resultado da pesquisa por nome de jogo -->
+            <div id="searchResultByName" class="search-result">
+                <h4 style="color: green;">Resultados da Pesquisa por Nome:</h4>
+                <ul id="gameListByName"></ul>
+            </div>
+            <div class="black-stripe"></div>
+        </div>
+    
+        <!-- Pesquisa por plataforma -->
+        <div class="search-section">
+            <h2>Pesquisar por Plataforma</h2>
+            <label for="platformSelect">Selecione uma Plataforma:</label>
+            <select id="platformSelect">
+                <!-- Opções de plataformas serão preenchidas dinamicamente via JavaScript -->
+            </select>
+            <button id="searchByPlatform" class="search-button">Pesquisar</button>
+    
+            <!-- Resultado da pesquisa por plataforma -->
+            <div id="searchResultByPlatform" class="search-result">
+                <h4 style="color: green;">Resultados da Pesquisa por Plataforma:</h4>
+                <ul id="gameListByPlatform"></ul>
+            </div>
+            <div class="black-stripe"></div>
+        </div>
+    
+        <!-- Listar Séries e Coleções -->
+        <div class="search-section">
+            <h2>Listar Séries e Coleções</h2>
+            <button id="listSeriesAndCollections" class="search-button">Listar</button>
+    
+            <!-- Resultado da lista de séries e coleções -->
+            <div id="seriesAndCollectionsList" class="search-result">
+                <!-- A lista de séries e coleções será exibida aqui -->
+            </div>
+        </div>
+
+        
+        
+    </div>
+    <footer>
+        <p>Todos os direitos reservados &copy; Welyton Dias</p>
+    </footer>
+    
+
+    <script src="app2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+</body>
+
+</html>

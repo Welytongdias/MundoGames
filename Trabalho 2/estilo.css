@@ -1,0 +1,292 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px; /* Define a largura máxima do container */
+    margin: 0 auto; /* Centraliza o container na tela */
+}
+
+h1 {
+    color: #333;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+select, button {
+    width: 100%; /* Preenche a largura do container */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* Estilize a caixa de pesquisa e o botão */
+.search-input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Estilize o botão ao passar o mouse por cima */
+.search-button:hover {
+    background-color: #2577c1;
+}
+
+
+
+/* Estilo para as flechas de navegação */
+.owl-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Estilo para as flechas de navegação "próximo" e "anterior" */
+.owl-prev,
+.owl-next {
+    background-color: #333; /* Cor de fundo das flechas */
+    color: #fff; /* Cor do ícone da flecha */
+    padding: 10px;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+    background-color: #555; /* Cor de fundo ao passar o mouse sobre as flechas */
+}
+/* Estilo para o carrossel */
+.screenshots-container {
+    display: flex; /* Garante que os itens do carrossel fiquem em linha */
+}
+
+/* Estilo para os itens do carrossel */
+.screenshots-container img {
+    width: 100%; /* Garante que as imagens preencham o espaço disponível */
+}
+
+/* Estilo para as flechas de navegação */
+.owl-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Estilo para as flechas de navegação "próximo" e "anterior" */
+.owl-prev,
+.owl-next {
+    background-color: #333; /* Cor de fundo das flechas */
+    color: #fff; /* Cor do ícone da flecha */
+    padding: 10px;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+    background-color: #555; /* Cor de fundo ao passar o mouse sobre as flechas */
+}
+
+/* Estilo para os pontos de navegação */
+.owl-dots {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Estilo para cada ponto de navegação */
+.owl-dot {
+    background-color: #333; /* Cor de fundo do ponto de navegação */
+    display: inline-block;
+    margin: 0 5px; /* Espaçamento entre os pontos */
+}
+
+.owl-dot.active {
+    background-color: #555; /* Cor de fundo do ponto ativo */
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+/* Estilos para os links quando o mouse passa por cima */
+nav a:hover {
+    color: #ff9900;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos para a faixa RGB */
+.rgb-stripe {
+    background: linear-gradient(60deg, #ff0000, #00ff00, #0000ff); /* Gradiente de cores */
+    height: 20px; /* Altura da faixa */
+}
+
+/* Estilos para o texto das seções */
+section h2 {
+    margin: -1;
+    padding: 12px;
+    text-align: center;
+    background-color: #fff; /* Cor de fundo para destacar o texto */
+    color: #333; /* Cor do texto */
+}
+
+.text-box {
+    background-color: #f3f3f3; /* Cor de fundo da caixa */
+    padding: 20px; /* Espaçamento interno para o conteúdo */
+    border: 1px solid #ddd; /* Borda fina */
+    border-radius: 10px; /* Cantos arredondados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    max-width: 800px; /* Largura máxima da caixa */
+    margin: 0 auto; /* Centralizar horizontalmente */
+}
+
+.container {
+    max-width: 960px; /* Defina a largura máxima que deseja para o conteúdo */
+    margin: 0 auto; /* Margens automáticas horizontalmente para centralizar o conteúdo */
+}
+
+/* Estilos padrão para telas maiores */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* Estilos para telas menores (aqui você pode ajustar como desejar) */
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%; /* O conteúdo ocupa toda a largura da tela */
+        padding: 10px; /* Adiciona algum espaço nas bordas para melhor leitura */
+    }
+}
+
+.black-stripe {
+    background: linear-gradient(60deg, #050303, #050303, #050303); /* Gradiente de cores */
+    height: 20px; /* Altura da faixa */
+}
+
+.card {
+    width: 200px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos para a imagem no card */
+.card img {
+    width: 100%;
+    height: auto;
+    display: flex; /* Usando flexbox para alinhar os cards lado a lado e ajustar a altura */
+    flex-wrap: wrap; /* Permitir que os cards quebrem para a próxima linha quando necessário */
+    justify-content: space-between;
+}
+
+/* Estilos para o link no card */
+.card a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+
+footer {
+    
+   
+    background-color: #333; /* Cor de fundo do rodapé */
+        color: #fff; /* Cor do texto no rodapé */
+        text-align: center; /* Centraliza o texto horizontalmente */
+        
+       
+    padding: 10px; /* Espaçamento interno para o rodapé */
+    }
+    
+    footer p {
+        
+       
+    margin: 0; /* Remove margens padrão do parágrafo */
+    }
+    
+    
+    /* Estilize o primeiro item da lista */
+ul li:first-child {
+    font-weight: bold; /* Defina o estilo do primeiro item em negrito */
+    color: #000; /* Defina a cor do primeiro item */
+    /* Outros estilos que você desejar aplicar ao primeiro item */
+}
+
+.containerGrande {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Cria três colunas iguais */
+    gap: 20px; /* Espaço entre os cards */
+}
+
+.cardGrande {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+}
+    
+
+    
